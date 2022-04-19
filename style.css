@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;   display: flex;
+}
+.header{
+    width: 10%;
+    height: 935px;
+    background-color: #000;
+ 
+
+}
+
+.header-menu-list{
+    list-style: none;
+    /* text-align: center; */
+}
+.name-menu{
+    color: white;
+    height: 44px;
+    border-bottom: 1px solid white;
+    line-height: 44px;
+    padding-left: 8px;;
+}
+
+.content{
+    width: 90%;
+    /* float: right; */
+    flex: 1;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.logo-img{
+    width: 310px;
+    height: 112px;
+}
+
+.info{
+    padding: 0 50px;;
+}
+.info-box{
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 20px 60px;
+}
+.info-name{
+    text-align: center;
+}
+
+.info-des{
+    text-align: center;
+}
+.box-content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.des{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    padding-right: 8px;
+}
+.img-name{
+    width: 140px;
+    height: 190px;
+}
+
+.box-name{
+    padding: 6px 0;;
+}
+.box-des{
+    width: 32%;
+}
+
+.vanban, .vanban2{
+    font-size: 16px;
+}
+
+.footer{
+    border-top: 1px solid #DEDEDE;
+    margin-top: 200px;
+    padding: 40px;
+}
